@@ -1,6 +1,6 @@
 # Bridging Planning and Control
 
-Code for our ECML PKDD 2026 paper on LLM-guided planning/control for multi-agent social dilemma environments.
+Code for our ECML PKDD 2026 paper on "Bridging Planning and Control: A Hybrid LLM-RL Framework for Multi-Agent Systems".
 
 This repository contains RLlib/PettingZoo implementations for Cleanup and Harvest, rule-based and LLM-based controllers, greedy baselines, and scripts used to run PPO experiments.
 
