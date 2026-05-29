@@ -205,3 +205,43 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project/runtime outputs
+ray_results/
+result/
+results/
+runs/
+logs/
+checkpoints/
+checkpoint_*/
+progress.csv
+events.out.tfevents*
+tensorboard/
+wandb/
+
+# Large model/data artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.parquet
+*.csv
+*.jsonl
+
+# Local editor/project files
+.idea/
+.vscode/
+*.code-workspace
+.project
+.pydevproject
+
+# Local secrets/config
+secrets.ini
+config.local.py
+*.local
+*.mdc
