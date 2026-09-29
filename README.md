@@ -1,6 +1,6 @@
 # Bridging Planning and Control
 
-Code for our ECML PKDD 2026 paper on "Bridging Planning and Control: A Hybrid LLM-RL Framework for Multi-Agent Systems".
+Code for our [ECML PKDD 2026 paper](https://doi.org/10.1007/978-3-032-37667-1_2) on "Bridging Planning and Control: A Hybrid LLM-RL Framework for Multi-Agent Systems".
 
 This repository contains RLlib/PettingZoo implementations for Cleanup and Harvest, rule-based and LLM-based controllers, greedy baselines, and scripts used to run PPO experiments.
 
@@ -137,4 +137,19 @@ Generated training outputs, checkpoints, TensorBoard events, local model weights
 
 ## Citation
 
-BibTeX will be added after the official proceedings metadata is available.
+If you use this code, please cite the [published paper](https://doi.org/10.1007/978-3-032-37667-1_2):
+
+```bibtex
+@inproceedings{zhang2027bridging,
+  title     = {Bridging Planning and Control: A Hybrid LLM-RL Framework for Multi-agent Systems},
+  author    = {Zhang, Zhurun and Ma, Xu and Yuan, Haokuan and Wei, Guni and Zhang, Bolei},
+  booktitle = {Machine Learning and Knowledge Discovery in Databases. Research Track},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {16944},
+  pages     = {23--39},
+  year      = {2027},
+  publisher = {Springer},
+  address   = {Cham},
+  doi       = {10.1007/978-3-032-37667-1_2}
+}
+```
